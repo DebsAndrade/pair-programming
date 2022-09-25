@@ -1,10 +1,18 @@
 import React from "react";
+import Logo from "../../assets/image/RC.png"
 
 const Navigation = () => {
     return (
         <div>
-            <p>Olá, testando o componente Navigation!</p>
-        </div>
+            <img src={Logo} alt="Logomarca Restaurante"/>
+            <nav>
+                <ul>
+                    <li>ABOUT</li>
+                    <li>RECIPES</li>
+                    <li>SUBSCRIBE</li>
+                </ul>
+            </nav>
+        </div> 
     )
 }
 

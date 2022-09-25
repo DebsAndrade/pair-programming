@@ -3,10 +3,10 @@ import Navigation from "./Navigation";
 
 const Header = () => {
     return (
-        <div>
-            <p>Olá, testando o componente Header!</p>
+        <header>
             <Navigation />
-        </div>
+            <h1>RECIPES</h1>
+        </header>
     )
 }
 
