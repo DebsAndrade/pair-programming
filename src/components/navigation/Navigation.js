@@ -1,18 +1,19 @@
 import React from "react";
-import Logo from "../../assets/image/RC.png"
+import Logo from "../../assets/image/RC.png";
+import * as S from "../../styles/NavigationStyle";
 
 const Navigation = () => {
     return (
-        <div>
-            <img src={Logo} alt="Logomarca Restaurante"/>
+        <S.HeaderNavigation>
+            <S.LogoHeader src={Logo} alt="Logomarca Restaurante"/>
             <nav>
                 <ul>
-                    <li>ABOUT</li>
-                    <li>RECIPES</li>
-                    <li>SUBSCRIBE</li>
+                    <S.ItemList>ABOUT</S.ItemList>
+                    <S.ItemList>RECIPES</S.ItemList>
+                    <S.ActiveItem>SUBSCRIBE</S.ActiveItem>
                 </ul>
             </nav>
-        </div> 
+        </S.HeaderNavigation> 
     )
 }
 

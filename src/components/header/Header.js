@@ -1,12 +1,13 @@
 import React from "react";
 import Navigation from "../navigation/Navigation";
+import * as S from "../../styles/HeaderStyle";
 
 const Header = () => {
     return (
-        <header>
+        <S.Header>
             <Navigation />
-            <h1>RECIPES</h1>
-        </header>
+            <S.H1>RECIPES</S.H1>
+        </S.Header>
     )
 }
 
