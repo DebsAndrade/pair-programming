@@ -10,7 +10,7 @@ const Navigation = () => {
                 <ul>
                     <S.ItemList>ABOUT</S.ItemList>
                     <S.ItemList>RECIPES</S.ItemList>
-                    <S.ActiveItem>SUBSCRIBE</S.ActiveItem>
+                    <S.ItemList>SUBSCRIBE</S.ItemList>
                 </ul>
             </nav>
         </S.HeaderNavigation> 

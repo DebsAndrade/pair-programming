@@ -17,10 +17,15 @@ export const ItemList = styled.li`
     display: inline-block;
     line-height: 4.22vw;
     padding-inline: 2.29vw;
+    &:hover{
+        border: solid 5px #373737;        
+    }
 `;
 
-export const ActiveItem = styled(ItemList)`
-    border: solid 5px #373737;
+/*export const ActiveItem = styled(ItemList)`    
     padding-inline: 3.13vw;
     margin-left: 2.29vw;
-`;
+    &:hover{
+        border: solid 5px #373737;
+    }
+`;*/

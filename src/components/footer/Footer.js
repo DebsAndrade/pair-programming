@@ -1,11 +1,13 @@
 import React from "react";
+import Forms from "./FooterSectionOne";
+import SocialNetworks from "./FooterSectionTwo";
 
 const Footer = () => {
     return (
-        <div>
-            <p>Olá, testando o componente Footer!</p>
-            <p>vou mexer aqui, Nikolas</p>
-        </div>
+        <section>
+            <Forms />
+            <SocialNetworks />
+        </section>
     )
 }
 

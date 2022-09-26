@@ -2,28 +2,29 @@ import React from "react";
 import RedVelvetCake from "../../assets/image/RedVelvetCake.png";
 import PizzaMargherita from "../../assets/image/pizza.png";
 import PeanutSmoothie from "../../assets/image/vitaminaAmendoin.png";
+import * as S from "../../styles/MainSectionOneStyle"
 
 const MainSectionOne = () => {
     return (
-        <>
-            <h2>LATEST RECIPES</h2>
-            <div></div>
-            <div>
-                <img src={RedVelvetCake} alt="Bolo Red Velvet"/>
-                <div></div>
-                <p>Red Velvet Cake</p>
-            </div>
-            <div>
-                <img src={PizzaMargherita} alt="Pizza de Margherita"/>
-                <div></div>
-                <p>Margherita Pizza</p>
-            </div>
-            <div>
-                <img src={PeanutSmoothie} alt="Peanut Smoothie"/>
-                <div></div>
-                <p>Peanut Smoothie</p>
-            </div>
-        </>
+        <S.Box>
+            <S.H2>LATEST RECIPES</S.H2>
+            <S.H3></S.H3>
+            <S.Caixa>
+                <S.Card>
+                    <S.Image src={RedVelvetCake} alt="Bolo Red Velvet" />
+                    <h3></h3>
+                    <S.Text>Red Velvet Cake</S.Text>
+                </S.Card>
+                <S.Card>
+                    <S.Image src={PizzaMargherita} alt="Pizza de Margherita" />
+                    <S.Text>Margherita Pizza</S.Text>
+                </S.Card>
+                <S.Card>
+                    <S.Image src={PeanutSmoothie} alt="Peanut Smoothie" />
+                    <S.Text>Peanut Smoothie</S.Text>
+                </S.Card>
+            </S.Caixa>
+        </S.Box>
     )
 }
 
