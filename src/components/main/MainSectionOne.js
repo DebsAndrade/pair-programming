@@ -14,12 +14,12 @@ const MainSectionOne = () => {
                 <p>Red Velvet Cake</p>
             </div>
             <div>
-                <img src={PizzaMargherita} alt=""/>
+                <img src={PizzaMargherita} alt="Pizza de Margherita"/>
                 <div></div>
                 <p>Margherita Pizza</p>
             </div>
             <div>
-                <img src={PeanutSmoothie} alt=""/>
+                <img src={PeanutSmoothie} alt="Peanut Smoothie"/>
                 <div></div>
                 <p>Peanut Smoothie</p>
             </div>
