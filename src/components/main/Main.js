@@ -1,10 +1,13 @@
 import React from "react";
+import MainSectionOne from "./MainSectionOne";
+import MainSectionTwo from "./MainSectionTwo";
 
 const Main = () => {
     return (
-        <div>
-            <p>Olá, testando o componente Main!</p>
-        </div>
+        <main>
+            <MainSectionOne />
+            <MainSectionTwo />
+        </main>
     )
 }
 
