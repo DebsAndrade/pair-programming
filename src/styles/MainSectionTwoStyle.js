@@ -1,20 +1,23 @@
 import styled from "styled-components";
 
-export const Image = styled.img`
-width:50vw;
+export const Box = styled.section`
+    display: flex;
 `
 
-export const Box = styled.section`
-display: flex;
+export const Image = styled.img`
+    width: 50vw;
 `
 
 export const Card = styled.div`
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+    padding-inline: 30px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export const Text = styled.p`
-width:74%;
+    font-size: 9px;
+    text-align: justify;
 `
