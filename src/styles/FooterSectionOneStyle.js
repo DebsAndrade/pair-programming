@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Box = styled.section`
-height:30vw;
+height:39.80vw;
 background-color:#DFE4DE;
 display:flex;
 flex-direction:column;
